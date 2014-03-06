@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Miyake Ryo <myo.ryo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. Description of the plugin/theme
+msgid ""
+"Save form submissions to the SpreadSheet from <a href='http://wordpress.org/"
+"extend/plugins/contact-form-7/'>Contact Form 7</a>. |<a href='options-"
+"general.php?page=contact-form-7-to-ss/contact-form-7-to-ss.php'>Settings</a>|"
+msgstr ""
+"<a href='http://wordpress.org/extend/plugins/contact-form-7/'>Contact Form "
+"7</a> から送信されたデータをGoogleスプレッドシートに保存します。|<a "
+"href='options-general.php?page=contact-form-7-to-ss/contact-form-7-to-ss."
+"php'>設定</a>|"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/miyakeryo/contact-form-7-to-ss"
+msgstr "https://github.com/miyakeryo/contact-form-7-to-ss"
+
+msgid "Contact Form 7 to SpreadSheet"
+msgstr "Contact Form 7 to SpreadSheet"
+
+msgid "Settings saved."
+msgstr "変更を保存"
+
+msgid "Form is not found."
+msgstr "フォーム が見つかりません。"
+
+msgid "Save form submissions to the SpreadSheet from Contact Form 7."
+msgstr ""
+"Contact Form 7 から送信されたデータをGoogleスプレッドシートに保存します。"
+
+msgid "How to make ''Google Apps Script Web Application''"
+msgstr "Google Apps Script ウェブアプリケーション の作り方"
+
+msgid "Select Contact Form"
+msgstr "フォームを選択"
+
+msgid "Google Apps Script Web Application URL"
+msgstr "Google Apps Script ウェブアプリケーションURL"
+
+msgid "Disable Email"
+msgstr "メールを無効にする"
+
+msgid "Get IP Address"
+msgstr "IPアドレスを取得する"
+
+msgid "Get Host Name"
+msgstr "ホスト名を取得する"
+
+msgid "Get Referer"
+msgstr "リファラを取得する"
+
+msgid "Get User Agent"
+msgstr "ユーザーエージェントを取得する"
