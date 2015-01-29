@@ -69,7 +69,7 @@ class wpcf7_SpreadSheet {
 
 			$submission = WPCF7_Submission::get_instance();
 			if ( $submission ) {
-					$posted_data = $submission->get_posted_data();
+				$posted_data = $submission->get_posted_data();
 			}
 
 			foreach ($posted_data as $key => $value) {
