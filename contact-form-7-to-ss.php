@@ -60,14 +60,19 @@ class wpcf7_SpreadSheet {
 
 		$options = $this->_getOptions();
 
-		$option = $options['forms'][$cf7->id];
+		$option = $options['forms'][$cf7->id()];
 		
 		if ( ! empty($option) ) {
 			$option = array_merge($this->form_defaults, $option);
 			$app_url = $option['app_url'];
 			$this->postdata = array();
 
-			foreach ($cf7->posted_data as $key => $value) {
+			$submission = WPCF7_Submission::get_instance();
+			if ( $submission ) {
+					$posted_data = $submission->get_posted_data();
+			}
+
+			foreach ($posted_data as $key => $value) {
 				if ( strpos($key, '_wp') !== 0 ) {
 					if ( is_array($value) ) {
 						$this->postdata[$key] = implode(',', $value);
